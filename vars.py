@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get("SESSION", "forward bot")
 API_ID = int(os.environ.get("API_ID", "13859375"))
 API_HASH = os.environ.get("API_HASH", "6ae4ba5fdc4eb0948616585a5bb7ee58")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6424576681:AAECKahVJ8E6BZ6lwi4gz-W9RBcpBJGhQec")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6899028025:AAEyl_WjRr6nzea-zg1Cs05VSmxp4ehX5Fw")
 
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001924870738"))
 PORT = int(environ.get("PORT", "8080"))
