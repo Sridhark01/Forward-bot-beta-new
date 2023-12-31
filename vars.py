@@ -20,7 +20,7 @@ LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001924870738"))
 PORT = int(environ.get("PORT", "8080"))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2034319320').split()]
 UPSTREAM_REPO = environ.get("UPSTREAM_REPO", "https://github.com/Sridhark01/Forward-bot-beta-new")
-DB_URI = environ.get('DB_URI', "")
+DB_URI = environ.get('DB_URI', "mongodb+srv://rename:rename@cluster0.yr0wxh3.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get('DB_NAME', "cluster0")
 
 
